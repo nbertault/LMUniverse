@@ -2,8 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+  min-height: 100vh;
+    background: linear-gradient(45deg, #0d0053 85%, #ffffff 100%);
     background-color: #0d0053;
     color: white;
+    background-repeat: no-repeat;
 }
 
 p {
@@ -12,6 +15,18 @@ p {
 
 .nav-link {
     color: white;
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+  color: rgb(135, 135, 135);
+}
+
+.navbar .nav-link:focus {
+  color: rgb(135, 135, 135);
 }
 
 .active {
@@ -114,4 +129,12 @@ h1 {
     top: 15%;
     color: #0d0053;
     -webkit-text-stroke: 6px #ffffff;
+}
+
+.dropdown-menu {
+    background-color: #0d0053;
+}
+
+.dropdown-item, hr.dropdown-divider {
+    color: white;
 }
