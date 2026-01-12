@@ -4,7 +4,6 @@ body {
     padding: 0;
   min-height: 100vh;
     background: linear-gradient(45deg, #0d0053 85%, #ffffff 100%);
-    background-color: #0d0053;
     color: white;
     background-repeat: no-repeat;
 }
