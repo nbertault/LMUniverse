@@ -44,7 +44,7 @@
 
 
             <li class="nav-item">
-                <a class="nav-link" href="circuit.html">Circuits</a>
+                <a class="nav-link" href="circuit.php">Circuits</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="records.html">Records</a>
@@ -98,6 +98,14 @@
     </div>
 
     <script src="app.js"></script>
+    
+    <footer>
+        <p>&copy; <span id="annee"></span> LM Universe <a href="#">Nous Contacter</a> <a
+                href="https://www.instagram.com/lemansultimate/">Instagram</a> <a href="#">Communauté</a></p>
+    </footer>
+    <script>
+        document.getElementById('annee').textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>

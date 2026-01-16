@@ -12,6 +12,22 @@ p {
     font-size: 1.2rem;
 }
 
+.info-box {
+  background-color: #0d0053; 
+  border-radius: 15px;      
+  border: 1px solid #ffffff;      
+  flex-shrink: 0;             
+  text-align: center;
+}
+
+.cadre {
+    background-color: rgba(13, 0, 83, 0.7);
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    color: #ffffff;
+}
+
 .nav-link {
     color: white;
 }
